@@ -353,7 +353,7 @@ function elisc_tm_contact_form() {
                 jQuery("#contact_form")[0].reset();
 
                 // send request to server
-                jQuery.post("http://127.0.0.1:8000/get-contact", {
+                jQuery.post("https://97a7-106-0-53-101.ngrok-free.app/get-contact", {
                     name: name,
                     email: email,
                     message: message,
