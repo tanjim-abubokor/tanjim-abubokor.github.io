@@ -11,7 +11,7 @@ function Sidebar(){
     let profile = document.querySelectorAll("div.profileImg");
     let logo = document.querySelector("img#logo");
     let copyright = document.querySelectorAll("p.copyrightText")
-
+    console.log("Running....");
     $.getJSON(domain+endpoint)
     .done(function(response) {
         logo.src = domain+response.logo;
@@ -44,7 +44,7 @@ function Sidebar(){
         });
     })
     .fail(function(jqXHR, textStatus, errorThrown) {
-        console.error('Error:', textStatus, errorThrown);
+        console.error('Error:', errorThrown);
     });
 }
 
