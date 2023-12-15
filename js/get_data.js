@@ -1,4 +1,4 @@
-const domain = "http://127.0.0.1:8000";
+const domain = "https://97a7-106-0-53-101.ngrok-free.app";
 const url = window.location.href.split("?")[0];
 console.log("url is: " + url);
 
