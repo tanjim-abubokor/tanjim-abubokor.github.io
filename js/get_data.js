@@ -1,6 +1,32 @@
 const domain = "https://tanjim.pythonanywhere.com";
-const url = window.location.href.split("?")[0];
-console.log("url is: " + url);
+const full_url = window.location.href;
+const url = full_url.split("?")[0]; // host url
+
+function Visitor(){
+    const endpoint = "/add-visitor";
+    let visitorId = null;
+
+    // Initialize the agent at application startup.
+    const fpPromise = import('https://openfpcdn.io/fingerprintjs/v4')
+      .then(FingerprintJS => FingerprintJS.load())
+  
+    // Get the visitor identifier when you need it.
+    fpPromise
+      .then(fp => fp.get())
+      .then(result => {
+        // This is the visitor identifier:
+        visitorId = result.visitorId;
+      })
+
+    // (url,data,function)
+    jQuery.post(domain+endpoint, {
+        visitor_id: visitorId,
+        visited_url: full_url
+    }, 
+    function(data){
+
+    });
+}
 
 function Sidebar(){
 
@@ -67,6 +93,7 @@ function Home(){
     $.getJSON(domain+endpoint)
     .done(function(response) {
 
+        document.title = response.page_title;
         title.innerHTML = response.title;
         subtitle.innerHTML = response.subtitle;
         image.src = domain+response.image;
@@ -109,6 +136,7 @@ function About(){
     $.getJSON(domain+endpoint)
     .done(function(response) {
 
+        document.title = response.page_title;
         title.innerHTML = response.title;
         description.innerHTML = response.description;
         buttons.innerHTML = '<a class="anchor" href="'+response.btn_link+'">'+response.btn_text+'</a>';
@@ -169,6 +197,7 @@ function Service(){
         service_holder.innerHTML = "";
         i = 1;
         response.services.forEach(service => {
+            document.title = service.page_title;
             service_holder.innerHTML += `
                 <li>
                 <div class="list_inner">
@@ -235,6 +264,7 @@ function Project(){
             project_holder.innerHTML = "";
             i = 1;
             response.projects.forEach(project => {
+                document.title = project.page_title;
                 project_holder.innerHTML += `
                     <li>
                     <div class="list_inner">
@@ -329,6 +359,7 @@ function Blog(){
         .done(function(response) {
             blogs.innerHTML = "";
             response.blogs.forEach(blog =>{
+                document.title = blog.page_title;
                 blogs.innerHTML += `
                     <li>
                     <img class="popup_image" src="${blog.image}" alt />
@@ -387,6 +418,7 @@ function Contact(){
 
     $.getJSON(domain+endpoint)
     .done(function(response){
+        document.title = response.page_title;
         contacts.innerHTML = "";
         response.contacts.forEach( element => {
             contacts.innerHTML += '<li><a href="#">'+element.contact+'</a></li>';
