@@ -1,4 +1,4 @@
-const domain = "https://97a7-106-0-53-101.ngrok-free.app";
+const domain = "https://tanjim.pythonanywhere.com";
 const url = window.location.href.split("?")[0];
 console.log("url is: " + url);
 
