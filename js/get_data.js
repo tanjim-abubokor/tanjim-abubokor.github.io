@@ -338,12 +338,19 @@ function ProjectDetails(){
             let project = response.project;
             document.title = project.page_title;
 
+            let thumbnail;
+            if (project.video != null) {
+                thumbnail = '<iframe width="750px" height="400px" src="'+project.video+'" title="Project Video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+            
+            } else if(project.image != null){
+                thumbnail = '<img class="main" src="'+project.image+'" style="max-height: 350px; display:block;  max-width:fit-content;">';
+            }
             project_holder.innerHTML = `
             <div class="news_popup_informations">
                 <div class="image" style="margin-bottom: 20px;">
                     <img src="img/thumbs/4-2.jpg" alt="">
                     <img class="main" src="${project.image ? project.image:''}" style="max-height: 350px; display:block;  max-width:fit-content;">
-                    <iframe width="750px" height="400px" src="${project.video}" title="Project Video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    ${thumbnail ? thumbnail:''}
                 </div>
                 <div class="details">
                     <div class="meta">
