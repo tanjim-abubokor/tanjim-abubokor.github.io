@@ -461,7 +461,7 @@ function BlogDetails(){
             <div class="news_popup_informations">
                 <div class="image" style="margin-bottom: 20px;">
                     <img src="img/thumbs/4-2.jpg" alt="">
-                    <img class="popup_image" src="${blog.image}" style="max-height: 350px; display:block;  max-width:fit-content;">
+                    <img class="" src="${blog.image}" style="max-height: 350px; display:block;  width:100%;">
                 </div>
                 <div class="details">
                     <div class="meta">
