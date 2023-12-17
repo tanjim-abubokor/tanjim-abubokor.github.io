@@ -1763,7 +1763,9 @@ body::-webkit-scrollbar-thumb {
 	display: none;
 	opacity: 0;
 	position: absolute;
-	z-index: -11
+	z-index: -11;
+	width:100%;
+	height:fit-content;
 }
 
 .elisc_tm_news .wrapper {
