@@ -1,16 +1,16 @@
 jQuery(document).ready(function() {
     "use strict";
-    elisc_tm_modalbox();
+    // elisc_tm_modalbox();
     elisc_tm_movingbox();
     elisc_tm_page_transition();
     elisc_tm_trigger_menu();
-    elisc_tm_service_popup();
-    elisc_tm_experience_popup();
-    elisc_tm_modalbox_news();
-    elisc_tm_modalbox_portfolio();
+    // elisc_tm_service_popup();
+    // elisc_tm_experience_popup();
+    // elisc_tm_modalbox_news();
+    // elisc_tm_modalbox_portfolio();
     elisc_tm_cursor();
     elisc_tm_imgtosvg();
-    elisc_tm_popup();
+    // elisc_tm_popup();
     elisc_tm_data_images();
     elisc_tm_contact_form();
     elisc_tm_owl_carousel();
