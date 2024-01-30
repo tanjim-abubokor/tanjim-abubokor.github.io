@@ -18,7 +18,7 @@
   },
 
   "about":{
-    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor</h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Web designer &amp;</span><span class='cd-words-wrapper'><b class='is-visible'>Developer</b><b>Coder</b><b>Player</b></span></span></span>",
+    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor </h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Web designer &amp;</span><span class='cd-words-wrapper'><b class='is-visible'>Developer</b><b>Coder</b><b>Player</b></span></span></span>",
     "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a web designer &amp; developer, and I'm very passionate and dedicated to my work.</p>\r\n        <p>With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>",
     "btn_text": "Got a Project",
     "btn_link": "projects.html",
