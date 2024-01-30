@@ -22,6 +22,7 @@
     "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a web designer &amp; developer, and I'm very passionate and dedicated to my work.</p>\r\n        <p>With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>",
     "btn_text": "Got a Project",
     "btn_link": "projects.html",
+    "banner":[],
     "skills": [
       {
         "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
