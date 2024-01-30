@@ -6,11 +6,11 @@
     "buttons": [
       {
       "text": "Got a Project",
-      "url": "projects.html"
+      "url": "portfolio"
       },
       {
       "text": "Let's talk",
-      "url": "contact.html"
+      "url": "contact"
       }
       ],
       "contact": [
