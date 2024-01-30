@@ -1,6 +1,6 @@
 {
   "home":{
-    "title":"<h3>Hi, I'm <span class='blueColor'>Elisc!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Creative</span><span class='cd-words-wrapper'><b class='is-visible'>Designer</b><b>Coder</b><b>Player</b></span></span></h3><h3>Based in Florida</h3>",
+    "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Creative</span><span class='cd-words-wrapper'><b class='is-visible'>Designer</b><b>Coder</b><b>Player</b></span></span></h3><h3>Based in Florida</h3>",
     "subtitle":"<p>I'm a Florida based web designer &amp; front‑end developer with <span class='blueColor'>10+ years</span> of experience</p>",
     "heroImage":"https://tanjim.pythonanywhere.com/media/images/hero.png",
     "buttons": [
