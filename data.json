@@ -171,7 +171,8 @@
     },
     {
     "media": "Location",
-    "contact": "Gazipur, Dhaka, Bangladesh"
+    "contact": "Gazipur, Dhaka, Bangladesh",
+    "href":"https://www.google.com/maps?q=Bangladesh+Agricultural+Research+Institute"
     }
     ],
     "location": "https://www.google.com/maps?q=Bangladesh+Agricultural+Research+Institute/@23.9916906,90.4033221,15z/data=!3m1!4b1?entry=ttu=&output=embed"
