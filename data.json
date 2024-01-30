@@ -1,5 +1,6 @@
 {
   "page_title": "Portfolio @Tanjim Abubokor",
+
   "home":{
     "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Creative</span><span class='cd-words-wrapper'><b class='is-visible'>Designer</b><b>Coder</b><b>Player</b></span></span></h3><h3>Based in Florida</h3>",
     "subtitle":"<p>I'm a Florida based web designer &amp; front‑end developer with <span class='blueColor'>10+ years</span> of experience</p>",
@@ -7,29 +8,161 @@
     "buttons": [
       {
       "text": "Got a Project",
-      "url": "#portfolio"
+      "url": "portfolio"
       },
       {
       "text": "Let's talk",
-      "url": "#contact"
+      "url": "contact"
       }
-      ],
-      "contact": [
+      ]
+  },
+
+  "about":{
+    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Robert Elisc</h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Web designer &amp;</span><span class='cd-words-wrapper'><b class='is-visible'>Developer</b><b>Coder</b><b>Player</b></span></span></span>",
+    "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a web designer &amp; developer, and I'm very passionate and dedicated to my work.</p>\r\n        <p>With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>",
+    "btn_text": "Got a Project",
+    "btn_link": "projects.html",
+    "skills": [
+    {
+    "id": 1,
+    "field": "Front-end",
+    "subtitle": "Web Development",
+    "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "skill": "Tailwind, Bootstrap, Javascript",
+    "date": "2020-2023"
+    },
+    {
+    "id": 2,
+    "field": "Back-end",
+    "subtitle": "Web Development",
+    "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "skill": "Python, Django, Flask",
+    "date": "2021-2023"
+    },
+    {
+    "id": 3,
+    "field": "Chat Bot",
+    "subtitle": "Artificial Intelligence",
+    "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "skill": "Python, Langchain",
+    "date": "2022-2023"
+    },
+    {
+    "id": 4,
+    "field": "Python",
+    "subtitle": "Language",
+    "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "skill": "Advanced level",
+    "date": "2021-2023"
+    },
+    {
+    "field": "Javascript",
+    "subtitle": "Language",
+    "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "skill": "Intermediate Level",
+    "date": "2020-2023"
+    }
+    ]
+  },
+
+  "service":{
+    "services": [
+    {
+    "id": 1,
+    "page_title": "Tanjim Abubokor",
+    "title": "Automation",
+    "description": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "btn": "Take The Service",
+    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html"
+    },
+    {
+    "id": 2,
+    "page_title": "Tanjim Abubokor",
+    "title": "Back-end",
+    "description": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "btn": "Take The Service",
+    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html"
+    },
+    {
+    "id": 3,
+    "page_title": "Tanjim Abubokor",
+    "title": "Font-end",
+    "description": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "btn": "Take The Service",
+    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html"
+    },
+    {
+    "id": 4,
+    "page_title": "Tanjim Abubokor",
+    "title": "Chat Bot",
+    "description": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+    "btn": "Take The Service",
+    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html"
+    }
+    ],
+    "video_title": "Intro Video",
+    "thumbnail": "/media/thumbnail/linkedin-profile_cmuCgAx.png",
+    "play_btn": "/media/images/telegram7584-removebg-preview_u1za8la.png",
+    "video_url": "https://tanjim.pythonanywhere.com/media/video/big_buck_bunny_720p_1mb.mp4"
+  },
+
+  "project":{
+    "projects": [
+      {
+      "id": 1,
+      "title": "Chat Bot",
+      "page_title": "Tanjim Abubokor",
+      "short_text": "The quickest way to add rich text editing capabilities to your models is to use the included RichTextField model field type.",
+      "description": "<p><strong>This is a Ai Chat Bot.</strong><br />\r\n&nbsp;</p>\r\n\r\n<p><strong>you can use it for free</strong></p>",
+      "video": "https://tanjim.pythonanywhere.com/media/projects/big_buck_bunny_720p_1mb_AoMvlE7.mp4",
+      "image": null,
+      "date": "2023-12-17"
+      }
+    ],
+    "testimonials": null
+  },
+
+  "blog":{
+    "title":"- Blog",
+    "heading":"My blog & news",
+    "buttons":[
         {
-        "id": 1,
-        "media": "Mail",
-        "contact": "abubokortanjim@gmail.com"
-        },
-        {
-        "id": 2,
-        "media": "Mail",
-        "contact": "mdtanjim750@gmail.com"
-        },
-        {
-        "id": 3,
-        "media": "Location",
-        "contact": "Gazipur, Dhaka, Bangladesh"
+          "text":"Get in touch",
+          "url":"contact"
         }
-        ]
+    ],
+    "blogs": [
+    {
+    "id": 3,
+    "page_title": "Blog",
+    "title": "Unleashing the Power of Django Cache: Boosting Performance and Efficiency",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeE-s9AStxu_2oGvVxUrIUvKPzIwtM9rhEvg&usqp=CAU",
+    "description": "<p>In the fast-paced world of web development, optimizing performance is key to delivering a seamless user experience. One powerful tool in the Django framework that can significantly enhance your application&#39;s speed and efficiency is caching. In this blog post, we&#39;ll explore why caching is crucial, how it benefits us, and delve into practical steps on implementing it in your Django projects.</p>\r\n\r\n<p>- <strong>Why</strong> <strong>Cache</strong> <strong>Matters</strong>:<br />\r\nCaching is like a supercharged memory that stores frequently accessed data, reducing the need to repeatedly fetch it from the original source. This not only accelerates response times but also minimizes server load, making your application more scalable.</p>\r\n\r\n<p>- <strong>Benefits</strong> <strong>of</strong> <strong>Caching</strong>:<br />\r\n1. <u>Faster</u> <u>Response</u> <u>Times</u>: Caching allows your application to retrieve data quickly, enhancing user experience by reducing latency.</p>\r\n\r\n<p>2. <u>Reduced</u> <u>Server</u> <u>Load</u>: By storing and serving cached content, your server handles fewer requests, freeing up resources for other tasks.</p>\r\n\r\n<p>2. <u>Improved</u>&nbsp;<u>Scalability</u>: Caching contributes to better scalability, enabling your application to handle increased traffic without sacrificing performance.</p>\r\n\r\n<p>- <strong>Using Django Cache</strong>:<br />\r\nDjango provides a robust caching framework that is easy to implement. Here&#39;s a simple guide to get you started:</p>\r\n\r\n<p>1. <u>Configure Django Cache Settings</u>:<br />\r\nIn your Django project&#39;s settings.py, configure the cache backend. Adjust the settings based on your preferred cache backend (e.g., Memcached, Redis).</p>\r\n\r\n<p>2. <u>DecorateViewswith</u> @<em>cache_page</em>:<br />\r\nApply caching to specific views using the cache_page decorator.</p>\r\n\r\n<p>3. <u>Use Django&#39;s Low-Level Cache API</u>:<br />\r\nFor more control, leverage Django&#39;s low-level cache API.</p>",
+    "date": "2023-12-11"
+    }
+    ]
+  },
+
+  "contact":{
+    "text": "I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime",
+    "btn_text": "Submit Now",
+    "page_title": "Tanjim Abubokor",
+    "contacts": [
+    {
+    "media": "Mail",
+    "contact": "abubokortanjim@gmail.com",
+    "href": "mailto:abubokortanjim@gmail.com"
+    },
+    {
+    "media": "Mail",
+    "contact": "mdtanjim750@gmail.com",
+    "href": "mailto:mdtanjim750@gmail.com"
+    },
+    {
+    "media": "Location",
+    "contact": "Gazipur, Dhaka, Bangladesh"
+    }
+    ],
+    "location": "https://www.google.com/maps?q=Bangladesh+Agricultural+Research+Institute/@23.9916906,90.4033221,15z/data=!3m1!4b1?entry=ttu=&output=embed"
   }
 }
