@@ -77,6 +77,7 @@
   },
 
   "service":{
+    "title":"<div class='elisc_tm_title'><span>- Services</span><h3>My Services</h3></div><a href='' id='service-mail'><span class='__cf_email__'>mdtanjim@gmail.com</span></a>",
     "services": [
     {
     "id": 1,
@@ -114,7 +115,8 @@
     "video_title": "Intro Video",
     "thumbnail": "/media/thumbnail/linkedin-profile_cmuCgAx.png",
     "play_btn": "/media/images/telegram7584-removebg-preview_u1za8la.png",
-    "video_url": "https://tanjim.pythonanywhere.com/media/video/big_buck_bunny_720p_1mb.mp4"
+    "video_url": "https://tanjim.pythonanywhere.com/media/video/big_buck_bunny_720p_1mb.mp4",
+    "mail": "abubokortanjim@gmail.com"
   },
 
   "project":{
