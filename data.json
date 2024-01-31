@@ -126,15 +126,18 @@
   "project":{
     "projects": [
       {
-      "id": 1,
+      "type": "blog",
       "title": "Chat Bot",
-      "page_title": "Tanjim Abubokor",
-      "short_text": "The quickest way to add rich text editing capabilities to your models is to use the included RichTextField model field type.",
       "description": "<p><strong>This is a Ai Chat Bot.</strong><br />\r\n&nbsp;</p>\r\n\r\n<p><strong>you can use it for free</strong></p>",
-      "video": "https://tanjim.pythonanywhere.com/media/projects/big_buck_bunny_720p_1mb_AoMvlE7.mp4",
-      "image": null,
+      "image": "https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=500&name=learn-programming-career-jpg.jpeg",
       "date": "2023-12-17"
-      }
+      },
+      {
+        "type": "video",
+        "title": "SeuQuest",
+        "thumbnail":"https://www.limestone.edu/sites/default/files/styles/news_preview_image/public/2022-03/computer-programmer.jpg?h=2d4b268f&itok=JOcIEe9u",
+        "url":"https://youtu.be/djzaSkI8Aus?si=BX41i1CEK4Jwrxkn"
+        }
     ],
     "testimonials": null
   },
