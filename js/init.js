@@ -28,7 +28,7 @@ jQuery(document).ready(function () {
   function elisc_tm_modalbox() {
     "use strict";
     jQuery(".elisc_tm_all_wrap").prepend(
-      '<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img src="https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/7c765d537140ef3d2bb30c392ae3e42b0daffdf6/img/svg/close-2.svg"></a></div><div class="description_wrap"></div></div></div>',
+      '<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img src="https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/b23e751a3a211477de87b2dd52479e030c377d5f/img/svg/close-2.svg"></a></div><div class="description_wrap"></div></div></div>',
     );
   }
   function elisc_tm_movingbox() {
