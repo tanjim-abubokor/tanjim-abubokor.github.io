@@ -28,7 +28,7 @@ jQuery(document).ready(function () {
   function elisc_tm_modalbox() {
     "use strict";
     jQuery(".elisc_tm_all_wrap").prepend(
-      '<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img src="img/logo/close-button.png" height="30px" width="30px"></a></div><div class="description_wrap"></div></div></div>',
+      '<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><img src="img/logo/close.svg"></a></div><div class="description_wrap"></div></div></div>',
     );
   }
   function elisc_tm_movingbox() {
