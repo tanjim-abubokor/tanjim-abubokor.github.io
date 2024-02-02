@@ -1,5 +1,55 @@
 {
   "page_title": "Portfolio @Tanjim Abubokor",
+  "sidebar":{
+    "name": "Tanjim Abubokor",
+    "copyright": "Copyright © 2023 Tanjim Abubokor. All rights reserved.",
+    "profile": "https://tanjim.pythonanywhere.com/media/profile/20220311_023534.png",
+    "menus": [
+    {
+    "id": 1,
+    "name": "Home",
+    "link": "index.html"
+    },
+    {
+    "id": 2,
+    "name": "About",
+    "link": "about.html"
+    },
+    {
+    "id": 3,
+    "name": "Services",
+    "link": "service.html"
+    },
+    {
+    "id": 4,
+    "name": "Projects",
+    "link": "projects.html"
+    },
+    {
+    "id": 5,
+    "name": "Blog",
+    "link": "blog.html"
+    },
+    {
+    "id": 6,
+    "name": "Contact",
+    "link": "contact.html"
+    }
+    ],
+    "social": [
+    {
+    "name": "Telegram",
+    "link": "https://t.me/tanjim_abubokor",
+    "logo": "https://tanjim.pythonanywhere.com/media/logos/cib-telegram-plane.svg"
+    },
+    {
+    "name": "Linkedin",
+    "link": "https://linkedin.com/in/tanjim_abubokor",
+    "logo": "https://tanjim.pythonanywhere.com/media/logos/linkedin_2cVn6Qn.svg"
+    }
+    ],
+    "logo": "https://tanjim.pythonanywhere.com/media/logo/logo_k6ZvvyE.png"
+  },
 
   "home":{
     "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Creative</span><span class='cd-words-wrapper'><b class='is-visible'>Designer</b><b>Coder</b><b>Player</b></span></span></h3><h3>Based in Florida</h3>",
@@ -203,6 +253,8 @@
   },
 
   "contact":{
+    "title":"- Let's Connect",
+    "heading":"Get in touch",
     "text": "I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me. You can contact anytime",
     "btn_text": "Submit Now",
     "page_title": "Tanjim Abubokor",
