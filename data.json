@@ -4,7 +4,7 @@
     "name": "Tanjim Abubokor",
     "textLogo":"T.Abubokor",
     "copyright": "Copyright © 2023 Tanjim Abubokor. All rights reserved.",
-    "profile": "https://tanjim.pythonanywhere.com/media/profile/20220311_023534.png",
+    "profile": "img/about/1.png",
     "menus": [
     {
     "id": 1,
@@ -41,21 +41,21 @@
     {
     "name": "Telegram",
     "link": "https://t.me/tanjim_abubokor",
-    "logo": "https://tanjim.pythonanywhere.com/media/logos/cib-telegram-plane.svg"
+    "logo": "img/svg/cib-telegram-plane.svg"
     },
     {
     "name": "Linkedin",
     "link": "https://linkedin.com/in/tanjim_abubokor",
-    "logo": "https://tanjim.pythonanywhere.com/media/logos/linkedin_2cVn6Qn.svg"
+    "logo": "img/svg/linkedin.svg"
     }
     ],
-    "logo": "https://tanjim.pythonanywhere.com/media/logo/logo_k6ZvvyE.png"
+    "logo": "img/logo/logo.png"
   },
 
   "home":{
-    "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Creative</span><span class='cd-words-wrapper'><b class='is-visible'>Designer</b><b>Coder</b><b>Player</b></span></span></h3><h3>Based in Florida</h3>",
-    "subtitle":"<p>I'm a Florida based web designer &amp; front‑end developer with <span class='blueColor'>10+ years</span> of experience</p>",
-    "heroImage":"https://tanjim.pythonanywhere.com/media/images/hero.png",
+    "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Python Programmer</b><b>Django Devloper</b></span></span></h3><h3>Based in Florida</h3>",
+    "subtitle":"<p>I'm From Dhaka, Bangladesh. I have been working for <span class='blueColor'>3+ years</span> in the development sector</p>",
+    "heroImage":"img/about/2.png",
     "buttons": [
       {
       "text": "Got a Project",
@@ -69,8 +69,8 @@
   },
 
   "about":{
-    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor </h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Web designer &amp;</span><span class='cd-words-wrapper'><b class='is-visible'>Developer</b><b>Coder</b><b>Player</b></span></span></span>",
-    "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a web designer &amp; developer, and I'm very passionate and dedicated to my work.</p>\r\n        <p>With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>",
+    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor </h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Coder</b><b>Python Programmer</b><b>Django Developer</b></span></span></span>",
+    "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a Web Devloper and Python Expart, and I'm very passionate and dedicated to my work.</p>\r\n        <p> I love to work on products that makes quite a significant positive impact on day to day lives of people. My focus is to create a product that will make you happy. I will give you a powerful backend with Django. I can help you take your business one step further. With my skills and experience, I can help you build a portfolio, business, e-commerce, sports, fitness, hospital management system, real-time chat web app, API integrations or API end-point, and custom websites. Thank you.</p>",
     "buttons": [
       {
       "text": "Got a Project",
