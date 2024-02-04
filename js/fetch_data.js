@@ -155,7 +155,6 @@ function about(data){
     skill.innerHTML = ""; // making contents empty
     for (let skill_ of data.skills){
         skill.innerHTML += `<li>
-        <img class="popup_image" src="${skill_.image}" alt />
         <div class="list_inner">
         <div class="short">
         <div class="job">
