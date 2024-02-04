@@ -158,7 +158,7 @@ function about(data){
         <div class="list_inner">
         <div class="short">
         <div class="job">
-        <span class="yellowColor">-${skill_.date}</span>
+        <span class="yellowColor">${skill_.date}</span>
         <h3>${skill_.field}</h3>
         </div>
         <div class="place">
@@ -168,7 +168,7 @@ function about(data){
         <div class="text">
         <p>${skill_.text}</p>
         </div>
-        
+        <b>Skills</b>: <span style="color:green">${skill_.skill}</span>
         </div>
         </li>`;
     }

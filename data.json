@@ -82,45 +82,37 @@
       {
         "field": "Front-end",
         "subtitle": "Web Development",
-        "text": "I can build a website for you with you desired front-end. For more information cantact me",
+        "text": "I can build a website for you with your desired front-end. For more information cantact me",
         "skill": "Tailwind, Bootstrap, Javascript",
         "date": "2020 - present"
       },
       {
-        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
         "field": "Back-end",
         "subtitle": "Web Development",
-        "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+        "text": "I will give you a powerful backend with Django. That will take your business one step further",
         "skill": "Python, Django, Flask",
-        "date": "2021-2023",
-        "description":"<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+        "date": "2021 - present"
       },
       {
-        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
         "field": "Chat Bot",
         "subtitle": "Artificial Intelligence",
-        "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+        "text": "I can make a chatbot for your company or any other use case. That will have knowledge abut your company. OR can itegate any other AI (ChatGPT, BARD, other) to your platform.",
         "skill": "Python, Langchain",
-        "date": "2022-2023",
-        "description":"<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+        "date": "2022 - present"
       },
       {
-        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
         "field": "Python",
         "subtitle": "Language",
-        "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+        "text": "I am Python programmer. I can help you in any kind of automation or other task. Feel free to cantact me for more details.",
         "skill": "Advanced level",
-        "date": "2021-2023",
-        "description":"<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+        "date": "2021 - present"
       },
       {
-        "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
         "field": "Javascript",
         "subtitle": "Language",
-        "text": "Website development is the process of building, programming, coding and maintaining websites and web applications.",
+        "text": "I have been using js for fron-end development. Also can help you to make your chrome extension using javascript.",
         "skill": "Intermediate Level",
-        "date": "2020-2023",
-        "description":"<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+        "date": "2020 - present"
       }
     ]
   },
