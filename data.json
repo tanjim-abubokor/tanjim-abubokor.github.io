@@ -90,26 +90,26 @@
         "field": "Back-end",
         "subtitle": "Web Development",
         "text": "I will give you a powerful backend with Django. That will take your business one step further",
-        "skill": "Python, Django, Flask",
+        "skill": "Django, Flask",
         "date": "2021 - present"
       },
       {
         "field": "Chat Bot",
         "subtitle": "Artificial Intelligence",
-        "text": "I can make a chatbot for your company or any other use case. That will have knowledge abut your company. OR can itegate any other AI (ChatGPT, BARD, other) to your platform.",
+        "text": "I can make a chatbot for your company or any other use case. That will have knowledge abut your company. OR can itegate any other AI (ChatGPT, BARD, others) to your platform.",
         "skill": "Python, Langchain",
         "date": "2022 - present"
       },
       {
         "field": "Python",
-        "subtitle": "Language",
+        "subtitle": "Programming Language",
         "text": "I am Python programmer. I can help you in any kind of automation or other task. Feel free to cantact me for more details.",
         "skill": "Advanced level",
         "date": "2021 - present"
       },
       {
         "field": "Javascript",
-        "subtitle": "Language",
+        "subtitle": "Programming Language",
         "text": "I have been using js for fron-end development. Also can help you to make your chrome extension using javascript.",
         "skill": "Intermediate Level",
         "date": "2020 - present"
@@ -121,27 +121,25 @@
     "title":"<div class='elisc_tm_title'><span>- Services</span><h3>My Services</h3></div><a href='' id='service-mail'><span class='__cf_email__'>mdtanjim@gmail.com</span></a>",
     "services": [
     {
+      "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+      "page_title": "Tanjim Abubokor",
+      "title": "Font-end",
+      "short_description": "I can build a website for you with your desired front-end. Please read more to know wat i am providing..",
+      "btn": "Read More",
+      "description": "<p>I can provide you a smooth web interface for your business. I am working on web front-end dor more the 3 years. I promise i will give my all efforts to make your website. </p><p>Front-end <b>Technologies</b> that i will use in your project <b>Tailwind</b>(CSS framwork) Or <b>BootStrap</b>(CSS framwork) <b>JavaScript</b>(For Interactions)</p>"
+    },
+    {
+      "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+      "page_title": "Tanjim Abubokor",
+      "title": "Back-end",
+      "short_description": "<b>Django</b> will be the best choise for your website as back-end. Read more to know my <b> Django Expertise...",
+      "btn": "Read More",
+      "description": "<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+      },
+    {
     "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
     "page_title": "Tanjim Abubokor",
     "title": "Automation",
-    "short_description": "Website development is the process of building, programming...",
-    "btn": "Take The Service",
-    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
-    "description": "<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
-    },
-    {
-    "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
-    "page_title": "Tanjim Abubokor",
-    "title": "Back-end",
-    "short_description": "Website development is the process of building, programming...",
-    "btn": "Take The Service",
-    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
-    "description": "<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
-    },
-    {
-    "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
-    "page_title": "Tanjim Abubokor",
-    "title": "Font-end",
     "short_description": "Website development is the process of building, programming...",
     "btn": "Take The Service",
     "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
