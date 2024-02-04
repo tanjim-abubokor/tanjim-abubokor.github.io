@@ -169,11 +169,6 @@ function about(data){
         <div class="text">
         <p>${skill_.text}</p>
         </div>
-        <a class="elisc_tm_full_link" href="index.html#"></a>
-        
-        <div class="hidden_details">
-        <div class="descriptions">${skill_.description}</div>
-        </div>
         
         </div>
         </li>`;

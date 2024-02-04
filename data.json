@@ -53,7 +53,7 @@
   },
 
   "home":{
-    "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Python Programmer</b><b>Django Devloper</b></span></span></h3><h3>Based in Florida</h3>",
+    "title":"<h3>Hi, I'm <span class='blueColor'>Tanjim!</span></h3><h3><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Python Programmer</b><b>Django Devloper</b></span></span></h3>",
     "subtitle":"<p>I'm From Dhaka, Bangladesh. I have been working for <span class='blueColor'>3+ years</span> in the development sector</p>",
     "heroImage":"img/about/2.png",
     "buttons": [
@@ -69,7 +69,7 @@
   },
 
   "about":{
-    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor </h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Coder</b><b>Python Programmer</b><b>Django Developer</b></span></span></span>",
+    "title": "<span class='mini'>- Nice to meet you!</span><h3 class='name'>Tanjim Abubokor </h3><span class='job'><span class='cd-headline rotate-1'> <span class='blc'>Working As </span><span class='cd-words-wrapper'><b class='is-visible'>Web Developer</b><b>Python Programmer</b><b>Django Developer</b></span></span></span>",
     "description": "<p>Hello there! My name is <span class=\"yellowColor\">Tanjim Abubokor</span>. I am a Web Devloper and Python Expart, and I'm very passionate and dedicated to my work.</p>\r\n        <p> I love to work on products that makes quite a significant positive impact on day to day lives of people. My focus is to create a product that will make you happy. I will give you a powerful backend with Django. I can help you take your business one step further. With my skills and experience, I can help you build a portfolio, business, e-commerce, sports, fitness, hospital management system, real-time chat web app, API integrations or API end-point, and custom websites. Thank you.</p>",
     "buttons": [
       {
