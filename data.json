@@ -2,6 +2,7 @@
   "page_title": "Portfolio @Tanjim Abubokor",
   "sidebar":{
     "name": "Tanjim Abubokor",
+    "textLogo":"T.Abubokor",
     "copyright": "Copyright © 2023 Tanjim Abubokor. All rights reserved.",
     "profile": "https://tanjim.pythonanywhere.com/media/profile/20220311_023534.png",
     "menus": [
@@ -276,5 +277,16 @@
     }
     ],
     "location": "https://www.google.com/maps?q=Bangladesh+Agricultural+Research+Institute/@23.9916906,90.4033221,15z/data=!3m1!4b1?entry=ttu=&output=embed"
+  },
+
+  "testimonial":{
+    "testimonials":[
+      {
+        "message":"That was a great journey with him. I am a CEO of a Travels Agency. Tanjim made a website for my company. He was submitted the projects many times as i said. But then I found some more functionality that had to add i said him and he just did it without any further arguments.",
+        "image":"img/client/client.jpg",
+        "name":"Md Nurnabi",
+        "job":"Functional website for travel agency"
+      }
+    ]
   }
 }
