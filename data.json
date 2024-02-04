@@ -121,7 +121,7 @@
     "title":"<div class='elisc_tm_title'><span>- Services</span><h3>My Services</h3></div><a href='' id='service-mail'><span class='__cf_email__'>mdtanjim@gmail.com</span></a>",
     "services": [
     {
-      "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+      "image": "img/service/front-end.png",
       "page_title": "Tanjim Abubokor",
       "title": "Font-end",
       "short_description": "I can build a website for you with your desired front-end. Please read more to know wat i am providing..",
@@ -129,30 +129,29 @@
       "description": "<p>I can provide you a smooth web interface for your business. I am working on web front-end dor more the 3 years. I promise i will give my all efforts to make your website. </p><p>Front-end <b>Technologies</b> that i will use in your project <b>Tailwind</b>(CSS framwork) Or <b>BootStrap</b>(CSS framwork) <b>JavaScript</b>(For Interactions)</p>"
     },
     {
-      "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+      "image": "img/service/backend.jpeg",
       "page_title": "Tanjim Abubokor",
       "title": "Back-end",
       "short_description": "<b>Django</b> will be the best choise for your website as back-end. Read more to know my <b> Django Expertise...",
       "btn": "Read More",
-      "description": "<p>My experience in portfolio, business, e-commerce,chat app, health care, real estate, and custom websites. I am also experienced in developing 3rd party APIs, playing with real-time data (django channels), API end-point etc.</p><p>I will provide your backend and server-side services. I also make custom backends.</p><p>Backend Services:<br></p><b>REST APIS</b> <br><b>Elastic Search</b> <br><b>Cashe</b>(This will make your site faster) <br><b>Django Channels</b> (to working with real-time data)<br>Database:<br><b>Postgress</b>"
+      "description": "<p>My experience in portfolio, business, e-commerce,chat app, health care, real estate, and custom websites. I am also experienced in developing 3rd party APIs, playing with real-time data (django channels), API end-point etc.</p><p>I will provide your backend and server-side services. I also make custom backends.</p><p>Backend Services:</p><b>REST APIS</b> <br><b>Elastic Search</b> <br><b>Cashe</b>(This will make your site faster) <br><b>Django Channels</b> (to working with real-time data)<br><b>Database:<br><b>Postgress</b><p><b>Note:</b> Thanks for coming. You can contact me for more information.</p>"
       },
     {
     "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
     "page_title": "Tanjim Abubokor",
     "title": "Automation",
-    "short_description": "Website development is the process of building, programming...",
-    "btn": "Take The Service",
+    "short_description": "Are you in need of a skilled and experienced Python developer who can help you with your automation?",
+    "btn": "Read More",
     "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
-    "description": "<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+    "description": "<p>Are you in need of a skilled and experienced Python developer who can help you with your automation, data extraction, and chatbot needs? Look no further! I offer a wide range of Python scripting services including web scraping, Discord chatbot development, and custom automation scripts.</p><p><b>Available automation services:</b><br><b>Web automation</b><br><b>Web Scrapping</b>(Using Python and Selenium)<br><b>Google Sheet Automation</b>(Using Python or Javascript as per your need)<br><b>Sending Emails & Text Messages</b></p>"
     },
     {
     "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
     "page_title": "Tanjim Abubokor",
     "title": "Chat Bot",
-    "short_description": "Website development is the process of building, programming...",
-    "btn": "Take The Service",
-    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
-    "description": "<p>Elisc is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.</p><p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.</p><p>That’s why more companies are not only reevaluating their website’s design but also partnering with Elisc, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>"
+    "short_description": "With my expertise in Python programming and AI technologies, I will seamlessly integrate Chatbot into any platform(Website, telegram, others).",
+    "btn": "Read More",
+    "description": "<p>If you are looking for a chatbot developer to make AI integrated chatbot or custom chatbot for your website, whatsapp, Telegram then you are at right place.</p><p>I can integrate chatGPT, Google BARD API with website, whatsapp or telegram to make AI chatbot that can give auto reply like a human.</p><p>I can also train GPT model according to your given data then chatbot can answer by taking information from your data that can help to build a AI integrated bot to act as a customer support for your company/business.</p><p>There are lots of field in which these chatbot can help you like:</p><br><b>&dot; Customer Support</b><b>&dot; Entertainment</b><b>&dot; Assistant</b><b>&dot; Health and Fitness</b><b>&dot; Restaurants"
     }
     ],
     "video_title": "Intro Video",

@@ -334,6 +334,7 @@ function testimonial(data){
                 <li>
                 <div class="text">
                 <p>${testimonial_.message}</p>
+                <p class="job"><b>Project</b>: ${testimonial_.job}</p>
                 </div>
                 <div class="short">
                 <div class="image">
@@ -343,7 +344,6 @@ function testimonial(data){
                 <h3>${testimonial_.name}</h3>
                 </div>
                 </div>
-                <p class="job">${testimonial_.job}</p>
                 </li>
             `;
         });
