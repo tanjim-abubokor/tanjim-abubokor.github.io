@@ -137,16 +137,15 @@
       "description": "<p>My experience in portfolio, business, e-commerce,chat app, health care, real estate, and custom websites. I am also experienced in developing 3rd party APIs, playing with real-time data (django channels), API end-point etc.</p><p>I will provide your backend and server-side services. I also make custom backends.</p><p>Backend Services:</p><b>REST APIS</b> <br><b>Elastic Search</b> <br><b>Cashe</b>(This will make your site faster) <br><b>Django Channels</b> (to working with real-time data)<br><b>Database:<br><b>Postgress</b><p><b>Note:</b> Thanks for coming. You can contact me for more information.</p>"
       },
     {
-    "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+    "image": "img/service/automation2.jpeg",
     "page_title": "Tanjim Abubokor",
     "title": "Automation",
     "short_description": "Are you in need of a skilled and experienced Python developer who can help you with your automation?",
     "btn": "Read More",
-    "btn_link": "http://127.0.0.1:5500/templates/pages/contact.html",
     "description": "<p>Are you in need of a skilled and experienced Python developer who can help you with your automation, data extraction, and chatbot needs? Look no further! I offer a wide range of Python scripting services including web scraping, Discord chatbot development, and custom automation scripts.</p><p><b>Available automation services:</b><br><b>Web automation</b><br><b>Web Scrapping</b>(Using Python and Selenium)<br><b>Google Sheet Automation</b>(Using Python or Javascript as per your need)<br><b>Sending Emails & Text Messages</b></p>"
     },
     {
-    "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png",
+    "image": "img/service/chatbot2.png",
     "page_title": "Tanjim Abubokor",
     "title": "Chat Bot",
     "short_description": "With my expertise in Python programming and AI technologies, I will seamlessly integrate Chatbot into any platform(Website, telegram, others).",
