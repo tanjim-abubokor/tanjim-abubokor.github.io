@@ -287,24 +287,15 @@ function project(data){
                     <ul>
                     <li>
                     <span class="first">Client</span>
-                    <span>Alvaro Morata</span>
+                    <span>${project_.client}</span>
                     </li>
                     <li>
-                    <span class="first">Category</span>
-                    <span><a href="index.html#">Modalbox</a></span>
+                    <span class="first">Source Code</span>
+                    <span><a href="${project_.source_code}">Get Code</a></span>
                     </li>
                     <li>
                     <span class="first">Date</span>
                     <span>${project_.date}</span>
-                    </li>
-                    <li>
-                    <span class="first">Share</span>
-                    <ul class="share">
-                    <li><a href="index.html#"><img class="svg" src="img/svg/social/facebook.svg" alt /></a></li>
-                    <li><a href="index.html#"><img class="svg" src="img/svg/social/twitter.svg" alt /></a></li>
-                    <li><a href="index.html#"><img class="svg" src="img/svg/social/instagram.svg" alt /></a>
-                    </li>
-                    </ul>
                     </li>
                     </ul>
                     </div>
