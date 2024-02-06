@@ -291,7 +291,7 @@ function project(data){
                     </li>
                     <li>
                     <span class="first">Source Code</span>
-                    <span><a href="${project_.source_code}" style="color:blue">Get Code</a></span>
+                    <span><a href="${project_.source_code}" style="color:blue" target="_blank">Get Code</a></span>
                     </li>
                     <li>
                     <span class="first">Date</span>
