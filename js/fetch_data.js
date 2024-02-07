@@ -211,10 +211,12 @@ function service(data) {
         </div>
         </li>`;
     });
-    thumbnail.setAttribute('data-img-url', data.thumbnail);
-    play_btn.src = data.play_btn;
-    intro_vdo.href = data.video_url;
-    vdo_title.innerHTML = data.video_title;
+    if(data.show_intro_video){
+        thumbnail.setAttribute('data-img-url', data.thumbnail);
+        play_btn.src = data.play_btn;
+        intro_vdo.href = data.video_url;
+        vdo_title.innerHTML = data.video_title;
+    }
 }
 
 function project(data){
