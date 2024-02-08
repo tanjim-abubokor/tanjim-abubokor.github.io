@@ -816,42 +816,44 @@
         response_msg.textContent = "Please wait..."
         response_msg.style.color = "green";
 
-      //   fetch(endpoint, {
-      //     method: 'POST',
-      //     body: JSON.stringify({
-      //       name: name,
-      //       email: email,
-      //       message: message,
-      //       subject: subject
-      //     })
-      // })
-      // .then((response) => response.text())
-      // .then((data) => {
-      //   if(data.success) {
-      //     response_msg.textContent = "Successfully sent message!!"
-      //     response_msg.style.color = "green";
-      //   }else{
-      //     response_msg.textContent = "Sorry, something went wrong"
-      //     response_msg.style.color = "red";
-      //   }
-      // });
-
-      jQuery.post("https://tanjim.pythonanywhere.com/get-contact", {
-          name: name,
-          email: email,
-          message: message,
-          subject: subject
-      }, function(data) {
-          if(data.success){
-            response_msg.textContent = "Successfully sent message!!"
-            response_msg.style.color = "green";
-            console.log(data);
-          }else{
-            response_msg.textContent = "Sorry, something went wrong"
-            response_msg.style.color = "red";
-          }
+      fetch(endpoint, {
+          method: 'POST',
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+            subject: subject
+          })
+      })
+      .then((response) => response.text())
+      .then((data) => {
+        if(data.success) {
+          response_msg.textContent = "Successfully sent message!!"
+          response_msg.style.color = "green";
           console.log(data);
+        }else{
+          response_msg.textContent = "Sorry, something went wrong"
+          response_msg.style.color = "red";
+          console.log(data);
+        }
       });
+
+      // jQuery.post("https://tanjim.pythonanywhere.com/get-contact", {
+      //     name: name,
+      //     email: email,
+      //     message: message,
+      //     subject: subject
+      // }, function(data) {
+      //     if(data.success){
+      //       response_msg.textContent = "Successfully sent message!!"
+      //       response_msg.style.color = "green";
+      //       console.log(data);
+      //     }else{
+      //       response_msg.textContent = "Sorry, something went wrong"
+      //       response_msg.style.color = "red";
+      //     }
+      //     console.log(data);
+      // });
 
       }
     });
