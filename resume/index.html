@@ -801,22 +801,26 @@
   
   <script>
     let form = document.querySelector('form#contact_form');
-    let name = form.querySelector('input[name="name"]').value;
-    let email = form.querySelector('input[name="email"]').value;
-    let subject = form.querySelector('input[name="subject"]').value;
-    let message = form.querySelector('textarea[name="message"]').value;
+    let name = form.querySelector('input[name="name"]');
+    let email = form.querySelector('input[name="email"]');
+    let subject = form.querySelector('input[name="subject"]');
+    let message = form.querySelector('textarea[name="message"]');
     let response_msg = form.querySelector('div#response-msg span');
 
     let endpoint = "https://tanjim.pythonanywhere.com/get-contact";
 
     form.addEventListener('submit',function(event) {
-
+      name = name.value;
+      email = email.value;
+      subject = subject.value;
+      message = message.value;
+      
       event.preventDefault();
       if(name, email, subject, message){
         response_msg.textContent = "Please wait..."
         response_msg.style.color = "green";
 
-      fetch(endpoint, {
+        fetch(endpoint, {
           method: 'POST',
           body: JSON.stringify({
             name: name,
@@ -837,23 +841,6 @@
           console.log(data);
         }
       });
-
-      // jQuery.post("https://tanjim.pythonanywhere.com/get-contact", {
-      //     name: name,
-      //     email: email,
-      //     message: message,
-      //     subject: subject
-      // }, function(data) {
-      //     if(data.success){
-      //       response_msg.textContent = "Successfully sent message!!"
-      //       response_msg.style.color = "green";
-      //       console.log(data);
-      //     }else{
-      //       response_msg.textContent = "Sorry, something went wrong"
-      //       response_msg.style.color = "red";
-      //     }
-      //     console.log(data);
-      // });
 
       }
     });
