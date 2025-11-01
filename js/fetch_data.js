@@ -477,14 +477,10 @@ function contact(data) {
   });
 }
 
+(async () => {
+  await fetchData();
 
-fetchData();
-Visitor();
-
-jQuery(document).ready(function () {
-    "use strict";
-
-    console.log('ready.....')
+  console.log('ready.....')
     elisc_tm_modalbox();
     elisc_tm_movingbox();
     elisc_tm_page_transition();
@@ -515,5 +511,43 @@ jQuery(document).ready(function () {
     jQuery(".elisc_tm_all_wrap").prepend(
       `<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close" ><a href="#" style="background-color:#a5b6c4;"><img src="https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/b23e751a3a211477de87b2dd52479e030c377d5f/img/svg/close.svg" height="40px" width="40px"></a></div><div class="description_wrap"></div></div></div>`,
     );
-  }
+})();
+
+Visitor();
+
+// jQuery(document).ready(function () {
+//     "use strict";
+
+//     console.log('ready.....')
+//     elisc_tm_modalbox();
+//     elisc_tm_movingbox();
+//     elisc_tm_page_transition();
+//     elisc_tm_trigger_menu();
+//     elisc_tm_service_popup();
+//     elisc_tm_experience_popup();
+//     elisc_tm_modalbox_news();
+//     elisc_tm_modalbox_portfolio();
+//     elisc_tm_cursor();
+//     elisc_tm_imgtosvg();
+//     elisc_tm_popup();
+//     elisc_tm_data_images();
+//     elisc_tm_contact_form();
+//     elisc_tm_owl_carousel();
+//     elisc_tm_scrollable();
+//     elisc_tm_stickyy();
+//     elisc_tm_down();
+//     elisc_tm_location();
+//     jQuery(window).load("body", function () {
+//       elisc_tm_my_load();
+//     });
+//     jQuery(window).on("resize", function () {
+//       elisc_tm_menu_closer();
+//     });
+//   });
+//   function elisc_tm_modalbox() {
+//     "use strict";
+//     jQuery(".elisc_tm_all_wrap").prepend(
+//       `<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close" ><a href="#" style="background-color:#a5b6c4;"><img src="https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/b23e751a3a211477de87b2dd52479e030c377d5f/img/svg/close.svg" height="40px" width="40px"></a></div><div class="description_wrap"></div></div></div>`,
+//     );
+//   }
 
