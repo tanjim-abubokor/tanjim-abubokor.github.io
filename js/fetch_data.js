@@ -81,7 +81,7 @@ function sidebar(data) {
   mobilebar
     .querySelector("div.avatar")
     .querySelector("div.image")
-    .setAttribute("data-img-url", data?.profile);
+    .style.backgroundImage = `url(${data?.profile})`;
   mobilebar.querySelector("div.copyright").querySelector("p").textContent =
     data?.copyright;
   mobilebar.querySelector("div.social").querySelector("ul").innerHTML = "";
@@ -294,18 +294,28 @@ function project(data) {
       }
     }
 
-    if (project_?.type?.toLowerCase() == "video" || project_?.video || project_?.video_url) {
+    if (
+      project_?.type?.toLowerCase() == "video" ||
+      project_?.video ||
+      project_?.video_url
+    ) {
       let htmlCode = `
                 <li>
                     <div class="list_inner">
                     <div class="image">
                     <img src="img/thumbs/31-36.jpg" alt />
-                    <div class="main" data-img-url="${project_?.thumbnail || project_?.image}"></div>
-                    <a class="elisc_tm_full_link popup-youtube" href="${project_.url}"></a>
+                    <div class="main" data-img-url="${
+                      project_?.thumbnail || project_?.image
+                    }"></div>
+                    <a class="elisc_tm_full_link popup-youtube" href="${
+                      project_.url
+                    }"></a>
                     </div>
                     <div class="details">
                     <span class="category"><a href="index.html#">Video</a></span>
-                    <h3 class="title"><a class="line_effect popup-youtube" href="${project_.url}">${project_.title}</a></h3>
+                    <h3 class="title"><a class="line_effect popup-youtube" href="${
+                      project_.url
+                    }">${project_.title}</a></h3>
                     </div>
                     </div>
                 </li>
