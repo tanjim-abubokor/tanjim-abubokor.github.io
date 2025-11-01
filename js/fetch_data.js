@@ -478,5 +478,5 @@ function contact(data) {
 }
 
 
-fetchData();
+// fetchData();
 Visitor();
