@@ -1027,7 +1027,7 @@ function elisc_tm_stickyy() {
     });
   }
 }
-jQuery(".anchor_nav").onePageNav();
+jQuery(".anchor_nav")?.onePageNav();
 function elisc_tm_down() {
   "use strict";
   jQuery(".anchor").on("click", function () {
