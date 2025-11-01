@@ -1,4 +1,4 @@
-const DATA_URL = "https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/main/data.json";
+const DATA_URL = "https://tanjim.pythonanywhere.com/get-all";
 const url = window.location.href;
 
 function Visitor() {
@@ -49,7 +49,7 @@ function viewAllProjects(event) {
   }
 }
 
-function fetchData() {
+async function fetchData() {
   fetch(DATA_URL)
     .then((data) => data?.json())
     .then((data) => {
@@ -80,8 +80,7 @@ function sidebar(data) {
 
   mobilebar
     .querySelector("div.avatar")
-    .querySelector("div.image")
-    .style.backgroundImage = `url(${data?.profile})`;
+    .querySelector("div.image").style.backgroundImage = `url(${data?.profile})`;
   mobilebar.querySelector("div.copyright").querySelector("p").textContent =
     data?.copyright;
   mobilebar.querySelector("div.social").querySelector("ul").innerHTML = "";
@@ -478,5 +477,33 @@ function contact(data) {
   });
 }
 
-fetchData();
 Visitor();
+
+(async () => {
+  await fetchData();
+  
+  elisc_tm_modalbox();
+  elisc_tm_movingbox();
+  elisc_tm_page_transition();
+  elisc_tm_trigger_menu();
+  elisc_tm_service_popup();
+  elisc_tm_experience_popup();
+  elisc_tm_modalbox_news();
+  elisc_tm_modalbox_portfolio();
+  elisc_tm_cursor();
+  elisc_tm_imgtosvg();
+  elisc_tm_popup();
+  elisc_tm_data_images();
+  elisc_tm_contact_form();
+  elisc_tm_owl_carousel();
+  elisc_tm_scrollable();
+  elisc_tm_stickyy();
+  elisc_tm_down();
+  elisc_tm_location();
+  jQuery(window).load("body", function () {
+    elisc_tm_my_load();
+  });
+  jQuery(window).on("resize", function () {
+    elisc_tm_menu_closer();
+  });
+})();
