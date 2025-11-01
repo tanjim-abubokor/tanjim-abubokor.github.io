@@ -516,7 +516,7 @@ function contact(data) {
         `<div class="elisc_tm_modalbox"><div class="box_inner"><div class="close" ><a href="#" style="background-color:#a5b6c4;"><img src="https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/b23e751a3a211477de87b2dd52479e030c377d5f/img/svg/close.svg" height="40px" width="40px"></a></div><div class="description_wrap"></div></div></div>`,
       );
     }
-  },300)
+  },700)
     
 
 })();
