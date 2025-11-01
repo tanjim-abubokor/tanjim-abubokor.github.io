@@ -483,6 +483,8 @@ Visitor();
 
 jQuery(document).ready(function () {
     "use strict";
+
+    console.log('ready.....')
     elisc_tm_modalbox();
     elisc_tm_movingbox();
     elisc_tm_page_transition();
