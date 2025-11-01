@@ -59,7 +59,12 @@
     "buttons": [
       {
       "text": "Download Cv",
-      "url": "https://tanjim-abubokor.github.io/resume/Tanjim's-cv.pdf"
+      "url": "https://tanjim-abubokor.github.io/resume/Tanjim's-cv.pdf",
+      "attributes":[
+        {
+          "download":true
+        }
+      ]
       },
       {
       "text": "Let's talk",
