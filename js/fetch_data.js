@@ -131,7 +131,7 @@ function home(data) {
     // Create an anchor element
     let anchor = document.createElement("a");
     anchor.className = "anchor";
-    anchor.href = `index.html${button_.url}`;
+    anchor.href = button_.url;
     anchor.textContent = button_.text;
 
     // Add attributes from the attributes array
