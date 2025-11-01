@@ -1,4 +1,4 @@
-const DATA_URL = "https://raw.githubusercontent.com/tanjim-abubokor/tanjim-abubokor.github.io/main/data.json";
+const DATA_URL = "https://tanjim.pythonanywhere.com/get-all";
 const url = window.location.href;
 
 function Visitor() {
