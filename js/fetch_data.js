@@ -126,13 +126,32 @@ function home(data) {
   data = data?.home;
   title.innerHTML = data?.title;
   subtitle.innerHTML = data?.subtitle;
-  button.innerHTML = ""; //making contents empty
+  button.innerHTML = ""; // Clear existing content
   for (let button_ of data?.buttons) {
-    button.innerHTML += `<div class="elisc_tm_button">
-        <a class="anchor" href="index.html#${button_.url}">${button_.text}</a>
-        </div>
-        `;
+    // Create an anchor element
+    let anchor = document.createElement("a");
+    anchor.className = "anchor";
+    anchor.href = `index.html#${button_.url}`;
+    anchor.textContent = button_.text;
+
+    // Add attributes from the attributes array
+    if (button_.attributes && Array.isArray(button_.attributes)) {
+      for (let attr of button_.attributes) {
+        for (let key in attr) {
+          anchor.setAttribute(key, attr[key]);
+        }
+      }
+    }
+
+    // Append the anchor inside a container div
+    let div = document.createElement("div");
+    div.className = "elisc_tm_button";
+    div.appendChild(anchor);
+
+    // Add to the button container
+    button.appendChild(div);
   }
+
   contact.innerHTML = ""; //making contents empty
   for (let contact_ of contactInfo?.contacts) {
     contact.innerHTML += `<li><a href="${contact_.href}">${contact_.contact}</a></li>`;
