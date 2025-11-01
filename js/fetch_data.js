@@ -479,9 +479,8 @@ function contact(data) {
 
 (async () => {
   await fetchData();
-
-  jQuery(document).ready(function () {
-    "use strict";
+  //Wait for DOM to be ready
+  await new Promise((resolve) => jQuery(resolve));
 
     console.log('ready.....')
     elisc_tm_modalbox();
@@ -502,13 +501,14 @@ function contact(data) {
     elisc_tm_stickyy();
     elisc_tm_down();
     elisc_tm_location();
+  
     jQuery(window).load("body", function () {
       elisc_tm_my_load();
     });
+  
     jQuery(window).on("resize", function () {
       elisc_tm_menu_closer();
     });
-  });
   
   function elisc_tm_modalbox() {
     "use strict";
