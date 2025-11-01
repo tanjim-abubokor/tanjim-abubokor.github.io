@@ -58,8 +58,8 @@
     "heroImage":"img/about/2.png",
     "buttons": [
       {
-      "text": "Got a Project",
-      "url": "portfolio"
+      "text": "Download Cv",
+      "url": "https://tanjim-abubokor.github.io/resume/Tanjim's-cv.pdf"
       },
       {
       "text": "Let's talk",
